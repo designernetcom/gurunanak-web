@@ -1,0 +1,113 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .vsr-banner-section {
+        width: 100%;
+        overflow: hidden;
+      }
+
+      .vsr-banner-slide {
+        position: relative;
+        min-height: 100vh;
+        background: url("assets/img/gurunanak-images/11.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+      }
+
+      .vsr-banner-overlay {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          90deg,
+          rgba(0, 15, 60, 0.9) 0%,
+          rgba(0, 15, 60, 0.75) 40%,
+          rgba(0, 15, 60, 0.3) 100%
+        );
+      }
+
+      .vsr-banner-content {
+        position: relative;
+        z-index: 2;
+        max-width: 800px;
+        padding-left: 10%;
+        padding-right: 20px;
+      }
+
+      .vsr-banner-title {
+        color: #fff;
+        font-size: clamp(2rem, 5vw, 5rem);
+        font-weight: 800;
+        line-height: 1.15;
+        margin-bottom: 25px;
+      }
+
+      .vsr-banner-highlight {
+        background: #ff002b;
+        padding: 5px 15px;
+        display: inline-block;
+      }
+
+      .vsr-banner-text {
+        color: #fff;
+        font-size: clamp(1rem, 1.5vw, 1.3rem);
+        line-height: 1.8;
+        margin-bottom: 35px;
+      }
+
+      .vsr-banner-btn {
+        display: inline-block;
+        padding: 16px 35px;
+        background: #ff002b;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700;
+      }
+
+      @media (max-width: 767px) {
+        .vsr-banner-slide {
+          min-height: 100vh;
+          background-position: 75% center;
+        }
+
+        .vsr-banner-content {
+          padding: 0 20px;
+        }
+
+        .vsr-banner-btn {
+          width: 100%;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="vsr-banner-section">
+      <div class="vsr-banner-slide">
+        <div class="vsr-banner-overlay"></div>
+
+        <div class="vsr-banner-content">
+          <h1 class="vsr-banner-title">
+            100% At-Site Mobile
+            <span class="vsr-banner-highlight"> VSR Services </span>
+            <br />
+            & Authorized Equipment Sales
+          </h1>
+
+          <p class="vsr-banner-text">
+            Blackout residual weld and casting stresses using world-renowned
+            Formula 62 technology. Faster, cleaner, and more cost-effective than
+            traditional thermal stress relieving.
+          </p>
+
+          <a href="#quote" class="vsr-banner-btn"> Request A Quote → </a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
