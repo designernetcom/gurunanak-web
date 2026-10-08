@@ -17369,7 +17369,8 @@ span.select2-selection.select2-selection--single:focus {
   -webkit-transform: translateY(-40px);
   -ms-transform: translateY(-40px);
   transform: translateY(-40px);
-  padding-bottom: 178px;
+  /* padding-bottom: 178px; */
+  padding-bottom: 0px;
 }
 
 .img-box7 .img2 {
@@ -39503,7 +39504,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .vsr-key-advantages {
   width: 100%;
-  padding: 45px 0;
+  padding: 5px 0;
   /* background: #f6f8fa; */
 }
 
