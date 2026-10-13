@@ -42433,4 +42433,8 @@ span.select2-selection.select2-selection--single:focus {
   margin-top: 0px;
 }
 
+.gnsr-process-row-two .gnsr-process-info p {
+  text-align: center;
+}
+
 }
