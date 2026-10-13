@@ -225,7 +225,7 @@ p {
   font-size: 16px;
   line-height: 1.65;
   font-weight: 500;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 h1 a,
@@ -3101,7 +3101,7 @@ textarea.is-invalid {
 }
 
 .title-area .sec-title {
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
       color: #031a2c;
     font-size: 38px;
     line-height: 1.2;
@@ -37375,7 +37375,7 @@ span.select2-selection.select2-selection--single:focus {
 @media (max-width: 768px) {
   .diagonal-content {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 0rem;
     padding: 3rem 1.5rem;
   }
 
@@ -37696,7 +37696,7 @@ span.select2-selection.select2-selection--single:focus {
   }
 
   .z-index-common.site_vsr h1 {
-    font-size: 25px;
+    font-size: 26px;
   }
 
   .z-index-common.site_vsr h2 {
@@ -37772,7 +37772,8 @@ span.select2-selection.select2-selection--single:focus {
   }
 
   .two-column-layout .column-left h2 {
-    font-size: 20px;
+    font-size: 26px;
+    margin-bottom: -40px;
   }
 
   .service-sec-5 {
@@ -38170,7 +38171,7 @@ span.select2-selection.select2-selection--single:focus {
   }
 
   .help-header h2 {
-    font-size: 27px;
+    font-size: 26px;
   }
 
   .help-item {
@@ -39547,7 +39548,7 @@ span.select2-selection.select2-selection--single:focus {
   }
 
   .engineering-profile__content h3 {
-    font-size: 20px;
+    font-size: 26px;
   }
 
   .engineering-profile__content p {
@@ -39689,7 +39690,7 @@ span.select2-selection.select2-selection--single:focus {
   }
 
   .vsr-advantages-header h2 {
-    font-size: 23px;
+    font-size: 26px;
   }
 
   .vsr-advantages-row {
@@ -39894,7 +39895,9 @@ span.select2-selection.select2-selection--single:focus {
 @media (max-width: 767px) {
 
   .leadership-profile-section {
-    padding: 40px 15px;
+    /* padding: 40px 15px; */
+        padding: 0px 15px;
+        margin-top: -50px;
   }
 
   .leadership-profile-wrapper {
@@ -40190,11 +40193,11 @@ span.select2-selection.select2-selection--single:focus {
 /* ========================================== SMALL MOBILE ========================================== */
 @media (max-width: 480px) {
   .capability-section {
-    padding: 40px 0;
+    padding: 30px 0;
   }
 
   .capability-title {
-    font-size: 25px;
+    font-size: 26px;
   }
 
   .capability-main-image {
@@ -40286,7 +40289,7 @@ span.select2-selection.select2-selection--single:focus {
   position: relative;
   overflow: hidden;
   border-radius: 12px;
-  background: #dfe4e9;
+  /* background: #dfe4e9; */
 }
 
 .gnsr-vsr-image img {
@@ -40772,7 +40775,7 @@ span.select2-selection.select2-selection--single:focus {
   .gnsr-vsr-intro-content h3,
   .gnsr-monitor-content h3,
   .gnsr-application-heading h3 {
-    font-size: 25px;
+    font-size: 26px;
   }
 
   .gnsr-monitor-section {
@@ -41373,7 +41376,8 @@ span.select2-selection.select2-selection--single:focus {
   .gnsr-process-row h3,
   .gnsr-process-engineering h3,
   .gnsr-process-section-heading h3 {
-    font-size: 22px;
+    font-size: 26px;
+    text-align: center;
   }
 
   .gnsr-process-number {
@@ -41692,7 +41696,7 @@ span.select2-selection.select2-selection--single:focus {
 
   .vsr-benefits-heading h3,
   .vsr-equipment-heading h3 {
-    font-size: 22px;
+    font-size: 26px;
   }
 
   .vsr-benefit-box {
@@ -42240,7 +42244,7 @@ span.select2-selection.select2-selection--single:focus {
   }
 
   .sugar-vsr-text h3 {
-    font-size: 20px;
+    font-size: 26px;
   }
 
   .sugar-vsr-panel,
@@ -42250,7 +42254,7 @@ span.select2-selection.select2-selection--single:focus {
 
   .sugar-vsr-panel-head h3,
   .sugar-vsr-monitor-title h3 {
-    font-size: 19px;
+    font-size: 26px;
   }
 
   .sugar-vsr-list-item span,
@@ -42343,4 +42347,90 @@ span.select2-selection.select2-selection--single:focus {
 
 .space-1 {
   margin: -35px;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .leadership-profile-content h2 {
+        font-size: 26px;
+    }
+
+    .title-area .sec-title {
+      font-size: 26px;
+    }
+
+        .img-box7 {
+        margin-bottom: 0px;
+    }
+
+        .pt-11 {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .footer-wrapper .widget-area h3 {
+   font-size: 26px;
+}
+
+.site_vsr .sub-title8 {
+  text-align: center;
+}
+
+.site_vsr h2 {
+  text-align: center;
+}
+
+    .gnsr-vsr-intro {
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+
+    .gnsr-vsr-intro {
+        margin-bottom: 10px;
+    }
+
+.gnsr-vsr-image-overlay {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 28px;
+    padding: 18px;
+    color: #fff;
+    background: #031a2c;
+    border-radius: 7px;
+}
+
+.gnsr-application-section {
+    margin-bottom: 0px;
+}
+
+.gnsr-process-row-two .gnsr-process-info h3 {
+  color: #fff;
+  font-size: 26px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+    .sugar-vsr-panel-head h3, .sugar-vsr-monitor-title h3 {
+        font-size: 26px !important;
+    }
+
+    .title-area.mb-30, .sec-title.mb-30 {
+        margin-bottom: -35px;
+    }
+
+.diagonal-label {
+  font-size: 26px;
+}
+
+    .space, .space-top {
+        padding-top: 50px;
+    }
+
+.map {
+  margin-top: 0px;
+}
+
 }
